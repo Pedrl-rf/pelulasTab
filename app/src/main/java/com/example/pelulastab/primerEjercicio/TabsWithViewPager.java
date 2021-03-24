@@ -48,7 +48,6 @@ public class TabsWithViewPager extends AppCompatActivity {
                 tab.setText("Pelicula " + (position + 1));
             }
         });
-
         mediator.attach();
     }
     @Override
